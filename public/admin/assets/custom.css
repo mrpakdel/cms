@@ -1,0 +1,30 @@
+.file_drag_erea{
+    border: 2px dashed #0a8cf0;
+    min-height: 250px;
+    text-align: center;
+    color: #9b9da6;
+    line-height: 250px;
+    font-size: 24px;
+    position: relative;
+}
+.file_drag_over{
+    text-align: center;
+    color: #000;
+    border-color: #000;
+}
+.upload-images{
+    opacity: 0;
+    position: absolute;
+    /* display: block; */
+    /* height: 127px; */
+    line-height: 127px;
+    font-size: 24px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+.set_image_default{
+    height: 200px;
+    background-size: cover !important;
+}

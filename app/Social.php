@@ -1,0 +1,14 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Social extends Model
+{
+    protected $guarded = [];
+
+    protected $casts = [
+        'logo'=>'array'
+    ];
+}
